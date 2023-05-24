@@ -70,12 +70,6 @@
         </dependency>
 
         <dependency>
-            <groupId>poi</groupId>
-            <artifactId>poi-ooxml</artifactId>
-            <version>3.7-20101029</version>
-        </dependency>
-
-        <dependency>
             <groupId>net.bull.javamelody</groupId>
             <artifactId>javamelody-spring-boot-starter</artifactId>
             <version>1.73.0</version>
