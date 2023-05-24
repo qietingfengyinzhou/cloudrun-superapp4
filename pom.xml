@@ -228,8 +228,8 @@
         <dependency>
             <groupId>org.apache.maven.shared</groupId>
             <artifactId>maven-shared-utils</artifactId>
-            <version>3.2.1</version>
-            <type>pom</type>
+            <version>3.3.3</version>
+            <type>jar</type>
         </dependency>
 
         <dependency>
