@@ -81,23 +81,6 @@
             <version>1.13</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.alipay.cif.service</groupId>
-            <artifactId>cif-service-facade</artifactId>
-            <version>1.6.0.20140624</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alipay.kbdatafactory</groupId>
-            <artifactId>kbdatafactory-runtime-spi</artifactId>
-            <version>1.0.0.20190704</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alipay.jcs</groupId>
-            <artifactId>jcs-common-model</artifactId>
-            <version>1.0.20171031</version>
-        </dependency>
 
         <dependency>
             <groupId>org.springframework.security.oauth</groupId>
@@ -160,32 +143,7 @@
         </dependency>
 
 
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>jraft-parent</artifactId>
-            <version>1.2.4</version>
-            <type>pom</type>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alipay.jraft</groupId>
-            <artifactId>jraft-core</artifactId>
-            <version>1.1.0</version>
-            <type>pom</type>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alipay.rule</groupId>
-            <artifactId>rule-core-repository</artifactId>
-            <version>2.2.2</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alipay.rule</groupId>
-            <artifactId>rulelib-bom</artifactId>
-            <version>1.0.1.22</version>
-            <type>pom</type>
-        </dependency>
+    
 
         <dependency>
             <groupId>org.apache.activemq</groupId>
