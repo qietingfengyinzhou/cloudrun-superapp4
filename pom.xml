@@ -193,16 +193,12 @@
             <version>1.14.4</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.apache.flume</groupId>
-            <artifactId>flume-ng-sources</artifactId>
-            <version>1.4.0</version>
-        </dependency>
+      
 
         <dependency>
             <groupId>com.typesafe.play</groupId>
             <artifactId>play_2.12</artifactId>
-            <version>2.6.0</version>
+            <version>2.7.0</version>
         </dependency>
 
         <dependency>
@@ -211,11 +207,7 @@
             <version>2.5.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.alipay.rest.jaxrs</groupId>
-            <artifactId>sofa-fastjson-provider</artifactId>
-            <version>1.0.1</version>
-        </dependency>
+
 
         <dependency>
             <groupId>com.colobu</groupId>
