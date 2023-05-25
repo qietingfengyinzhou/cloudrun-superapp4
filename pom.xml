@@ -130,11 +130,7 @@
             <version>3.0.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.alipay.dmeta</groupId>
-            <artifactId>dmeta-common-holo-rewrite</artifactId>
-            <version>1.0.0.20190524</version>
-        </dependency>
+       
 
         <dependency>
             <groupId>org.apache.camel</groupId>
