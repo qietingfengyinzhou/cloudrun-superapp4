@@ -298,7 +298,12 @@
             <version>2.5.4</version>
         </dependency>
        
-
+		<!--nacos discovery-->
+		<dependency>
+			<groupId>com.alibaba.boot</groupId>
+			<artifactId>nacos-discovery-spring-boot-starter</artifactId>
+			<version>0.2.9</version>
+		</dependency>
     </dependencies>
 
     <build>
