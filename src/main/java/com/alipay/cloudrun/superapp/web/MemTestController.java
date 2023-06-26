@@ -4,7 +4,6 @@
  */
 package com.alipay.cloudrun.superapp.web;
 
-import com.alipay.cloudrun.superapp.aop.annotation.ControllerPointCut;
 import com.alipay.cloudrun.superapp.web.response.MemoryStatus;
 import com.alipay.cloudrun.superapp.web.response.Result;
 import lombok.extern.log4j.Log4j2;
@@ -42,7 +41,6 @@ public class MemTestController {
      * @return {@link Result}<{@link Void}>
      */
     @GetMapping("/load")
-    @ControllerPointCut
     public Result<Void> load(@RequestParam(name = "mb", required = false) Integer mb) {
 
         log.info("/api/memory/load GET request, mb = {}", mb);
@@ -62,7 +60,6 @@ public class MemTestController {
      * @return {@link Result}<{@link MemoryStatus}>
      */
     @GetMapping("/status")
-    @ControllerPointCut
     public Result<MemoryStatus> memoryStatus() {
 
         log.info("/api/memory/status GET request");
@@ -81,7 +78,6 @@ public class MemTestController {
      * @return {@link Result}<{@link Void}>
      */
     @GetMapping("/clear")
-    @ControllerPointCut
     public Result<Void> clearMemory() {
 
         log.info("/api/memory/clear GET request");
