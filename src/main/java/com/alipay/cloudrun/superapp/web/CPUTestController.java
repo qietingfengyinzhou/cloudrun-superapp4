@@ -4,7 +4,6 @@
  */
 package com.alipay.cloudrun.superapp.web;
 
-import com.alipay.cloudrun.superapp.aop.annotation.ControllerPointCut;
 import com.alipay.cloudrun.superapp.web.response.Result;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -36,7 +35,6 @@ public class CPUTestController {
      * @return {@link Result}<{@link Void}>
      */
     @GetMapping("/load")
-    @ControllerPointCut
     public Result<Void> stressTest(@RequestParam(name = "processors", required = false) Integer processors) {
         LOAD = true;
         if (processors == null) {
@@ -60,7 +58,6 @@ public class CPUTestController {
      * @return {@link Result}<{@link Void}>
      */
     @GetMapping("/cancel")
-    @ControllerPointCut
     public Result<Void> cancelStress() {
         LOAD = false;
         return Result.success();
