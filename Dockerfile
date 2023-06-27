@@ -28,4 +28,4 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo '$TZ' > /etc/timezone
 
 # 运行启动命令
-ENTRYPOINT ["java", "-jar", "superapp-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-Xmx2G", "-jar", "superapp-0.0.1-SNAPSHOT.jar"]
